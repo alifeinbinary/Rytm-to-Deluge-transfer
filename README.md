@@ -13,7 +13,7 @@ Ableton Live 9 or later
 1. Clone or download this repository
 2. Create a kit on your Deluge with 12 lanes, with the first lane assigned to MIDI note 0, SD assigned to MIDI note 1, RS assigned to MIDI note 2 etc. Make sure your MIDI channel is set to whatever your Rytm listens to. Consult the Deluge manual if your uncertain how to assign MIDI channels and notes within kits.  
 3. On your Rytm switch to another Global Slot in the Global menu. You should use one Global Slot for your performance MIDI configuration and a second for doing transfers. 
-4. In the MIDI Channels menu on the Rytm assign Track 1 to channel 1, Track 2 to channel 2, etc. Make sure that your Rytm is set to send MIDI over MIDI and USB within the MIDI config menu. 
+4. In the MIDI Channels menu on the Rytm assign Track 1 to channel 1, Track 2 to channel 2, etc. Make sure that your Rytm is set to send MIDI over MIDI and USB within the MIDI config menu. Under MIDI Config > Port Config, set OUTPUT CH to TRK CH.
 5. Open the project in Ableton Live. Highlight all the tracks in Ableton Live and set the MIDI In to your Analog Rytm and MIDI Out to your Deluge, which should be connected via USB or through a MIDI hub. Set all the Tracks to ARM or MIDI In so that Live is passing MIDI data through each track. Set the channels for each track to match your assignments from step 4. and Step 2 respectively. 
 > I send BD, SD, RS, CP, CH, OH, CY, and CB on channel 14 and BT, LT, MT, HT on channels 10, 11, 12, 13 respectively in case I use chromatic samples on those tracks but you don't need to do that if you don't want. 
 6. Confirm that the Max 4 Live device on each track is set to convert the incoming MIDI data from the Rytm correctly. BD should be set to C, SD to C#, RS to D etc. 
