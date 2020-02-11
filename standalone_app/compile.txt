@@ -1,0 +1,6 @@
+open thispatcher
+appicon "Cloud HD:/Dropbox/A Life in Binary/utilities/Rytm_to_Deluge_MIDItransfer/standalone_app/img/rytm2deluge.icns"
+include "Cloud HD:/Dropbox/A Life in Binary/utilities/Rytm_to_Deluge_MIDItransfer/standalone_app/node_modules/@ibm/plex/IBM-Plex-Mono/fonts/complete/ttf/IBMPlexMono-Regular.ttf"
+include "Cloud HD:/Dropbox/A Life in Binary/utilities/Rytm_to_Deluge_MIDItransfer/standalone_app/node_modules/@ibm/plex/IBM-Plex-Mono/fonts/complete/ttf/IBMPlexMono-Italic.ttf"
+include "Cloud HD:/Dropbox/A Life in Binary/utilities/Rytm_to_Deluge_MIDItransfer/standalone_app/node_modules/@ibm/plex/IBM-Plex-Mono/fonts/complete/ttf/IBMPlexMono-Bold.ttf"
+include "Cloud HD:/Dropbox/A Life in Binary/utilities/Rytm_to_Deluge_MIDItransfer/standalone_app/img/rytm2deluge.icns"
